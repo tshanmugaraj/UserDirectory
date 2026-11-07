@@ -1,0 +1,80 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    color: white;
+    padding: 15px 40px;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #93c5fd;
+}
+
+/* For Edit Ui */
+.edit-user-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.edit-user-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e293b;
+}
+
+.edit-user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.edit-user-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.edit-user-form button {
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.edit-user-form button:hover {
+    background: #1d4ed8;
+}
+
+.edit-user-form .cancel-button {
+    background: #64748b;
+}
+
+.edit-user-form .cancel-button:hover {
+    background: #475569;
+}

@@ -1,0 +1,22 @@
+
+# .NET build files
+**/bin/
+**/obj/
+.vs/
+
+# React files
+**/node_modules/
+**/dist/
+
+# SQLite database files
+**/data/*.db
+**/data/*.db-shm
+**/data/*.db-wal
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/

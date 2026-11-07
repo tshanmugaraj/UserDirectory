@@ -1,0 +1,152 @@
+
+.user-list-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.list-header h2 {
+    color: #1e293b;
+}
+
+.add-button {
+    background: #2563eb;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.add-button:hover {
+    background: #1d4ed8;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+    background: #1e293b;
+    color: white;
+}
+
+tbody tr:hover {
+    background: #f1f5f9;
+}
+
+.edit-button {
+    background: #2563eb;
+    color: white;
+    padding: 7px 13px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.edit-button:hover {
+    background: #1d4ed8;
+}
+
+.delete-button {
+    background: #dc2626;
+    color: white;
+    padding: 7px 13px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background: #b91c1c;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: #2563eb;
+    font-size: 18px;
+}
+
+.empty-message {
+    text-align: center;
+    padding: 40px;
+    color: #64748b;
+    font-size: 16px;
+}
+
+.success-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #dcfce7;
+    color: #166534;
+    padding: 12px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.success-message button,
+.error-message button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.error-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 12px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+ /* spinner */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 12px;
+}
+
+.spinner {
+    width: 35px;
+    height: 35px;
+    border: 4px solid #e2e8f0;
+    border-top: 4px solid #2563eb;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
